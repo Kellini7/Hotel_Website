@@ -6,12 +6,16 @@
     <title>Forms</title>
 </head>
 <body>
-    Name<input type="text" name="fname" placeholder="fullname">
-    <br>
-    password <input type="password"> <br>
-    Email: <input type="email"> <br>
-    Gender: <input type="radio" name="gender" id="gender">
-
-    
+    <form>
+        Name: <input type="text" name="fname" placeholder="Full Name"><br>
+        Password: <input type="password" name="password" placeholder="Enter your password"><br>
+        Email: <input type="email" name="email" placeholder="Enter your email"><br>
+        Gender: 
+        <input type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Female</label><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
